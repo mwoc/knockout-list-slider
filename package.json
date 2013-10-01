@@ -1,0 +1,24 @@
+{
+  "name": "knockout-list-slider",
+  "version": "0.0.0",
+  "author": "Maarten Winter <winter.maarten@gmail.com>",
+  "main": "lib/knockout-list-slider.js",
+  "dependencies": {
+    "knockout": ">=2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "=1.12.0",
+    "phantomjs": "=1.9.1-0",
+    "mocha-phantomjs": "=3.1.0",
+    "expect.js": "=0.2.0",
+    "mocha-browserstack": "=0.2.1",
+    "grunt-exec": "=0.4.2",
+    "grunt-contrib-connect": "=0.3.0",
+    "grunt-contrib-watch": "=0.5.3",
+    "grunt": "=0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwoc/knockout-list-slider.git"
+  }
+}
