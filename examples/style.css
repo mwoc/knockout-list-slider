@@ -2,9 +2,12 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    font-size: 0; /* Hides newlines interpreted as whitespace */
 }
 
 li {
+    margin-left: 2px;
+    border: thin solid gray;
     display: inline-block;
-    zoom: 1;
+    font-size: 16px;
 }
