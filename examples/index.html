@@ -3,12 +3,13 @@
     <head>
         <title>List Slider Demo</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     </head>
     <body>
       <div id="application">
-        <div tabindex="-1" data-bind="foreach: dataSource" class="list">
-          <span data-bind="text: $data"></span>
-        </div>
+        <ul tabindex="-1" data-bind="foreach: dataSource" class="list">
+          <li data-bind="text: $data"></li>
+        </ul>
       </div>
       <script type="text/javascript" src="../vendor/knockout-2.2.0.debug.js"></script>
       <script type="text/javascript" src="../lib/knockout-list-slider.js"></script>
