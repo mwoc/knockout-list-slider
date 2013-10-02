@@ -5,7 +5,7 @@
     };
 
     for (var i = 1; i <= 10; i++) {
-        var item = 'Item ' + '*'.repeat(i);
+        var item = 'Item ' + new Array(i + 1).join('*');
         viewModel.dataSource.push(item);
     }
 
