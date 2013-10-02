@@ -6,10 +6,15 @@
         <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     </head>
     <body>
-      <div id="application">
-        <ul tabindex="-1" data-bind="listSlider: dataSource" class="maxSizeList">
-          <li data-bind="text: $data"></li>
-        </ul>
+      <div>
+        <ul>
+          <li>&lt;</li>
+          <li class="listContainer">
+            <ul tabindex="-1" data-bind="listSlider: dataSource">
+              <li data-bind="text: $data"></li>
+            </ul>
+          </li>
+          <li>&gt;</li>
       </div>
       <script type="text/javascript" src="../vendor/jquery-1.8.1.js"></script>
       <script type="text/javascript" src="../vendor/knockout-2.2.0.debug.js"></script>
